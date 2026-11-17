@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "id": "itemmarks",
+  "version": "${version}",
+  "name": "Item Marks",
+  "description": "Mark item identities with a private translucent background.",
+  "environment": "client",
+  "mixins": ["itemmarks.client.mixins.json", "itemmarks.inventoryhud.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.18.4",
+    "minecraft": "1.21.11",
+    "java": ">=21"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.itemmarks.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": ["ContainerScreenMixin", "HotbarMixin", "ScreenOverlayMixin"],
+  "injectors": { "defaultRequire": 1 }
+}

@@ -1,0 +1,9 @@
+{
+  "required": false,
+  "minVersion": "0.8",
+  "package": "com.itemmarks.compat.inventoryhud.mixin",
+  "plugin": "com.itemmarks.compat.inventoryhud.InventoryHudPlugin",
+  "compatibilityLevel": "JAVA_21",
+  "client": ["InventoryHudGuiMixin"],
+  "injectors": { "defaultRequire": 0 }
+}
